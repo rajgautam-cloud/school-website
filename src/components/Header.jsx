@@ -3,13 +3,13 @@ import logo from "../assests/logo.webp";
 import "../style.scss";
 const Header = () => {
   return (
-    <div className="row">
+    <div className="row mx-0">
       <div className="col-1"></div>
       <div className="col-3">
         <img className="py-2" src={logo} style={{ height: "70px" }} />
       </div>
-      <div className="col-2"></div>
-      <div className="col-5">
+      <div className="col-1"></div>
+      <div className="col-6">
         <div className="row py-4" style={{ textAlign: "center" }}>
           <div className="col th-18 th-fw-600 th-font-green">Home</div>
           <div className="col th-18 th-fw-600 th-font-red">About</div>

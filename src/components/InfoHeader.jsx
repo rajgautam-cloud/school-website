@@ -7,7 +7,7 @@ const InfoHeader = () => {
       className="th-12 d-none d-md-block"
       style={{ color: "#b7b7b7", backgroundColor: "black" }}
     >
-      <div className="row">
+      <div className="row mx-0">
         <div className="col-1"></div>
 
         <div className="col-3 py-3">

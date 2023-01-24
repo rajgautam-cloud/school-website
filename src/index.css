@@ -33,3 +33,12 @@ code {
 .th-font-purple {
   color: #8800ff;
 }
+.center {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
