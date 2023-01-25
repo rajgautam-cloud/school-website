@@ -14,6 +14,12 @@ code {
 .th-font-pink {
   color: #ff236c;
 }
+.th-font-grey {
+  color: #bababa;
+}
+.th-font-white {
+  color: #fff;
+}
 .th-font-green {
   color: #a5c347;
 }
@@ -41,4 +47,42 @@ code {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.background-overlay {
+  background-color: #5f5af0;
+  opacity: 0.98;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.point-container {
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  padding: 10px 25px 10px 25px;
+}
+.input-form {
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  height: 60px;
+}
+::placeholder {
+  padding-left: 25px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 16px;
+}
+.primary-button {
+  background-color: #f0aa00;
+  border: none;
+  font-weight: bold;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 30px;
+}
+
+.secondary-button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 40px;
+  color: black;
+  border-radius: 30px;
 }

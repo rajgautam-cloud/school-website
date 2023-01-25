@@ -3,6 +3,10 @@ import React from "react";
 import Header from "./components/Header";
 import InfoHeader from "./components/InfoHeader";
 import MainInfo from "./components/MainInfo";
+import PartnerSection from "./components/PartnerSection";
+import QuerySection from "./components/QuerySection";
+import StaffSection from "./components/StaffSection";
+import WhySection from "./components/WhySection";
 
 function App() {
   return (
@@ -10,6 +14,10 @@ function App() {
       <InfoHeader />
       <Header />
       <MainInfo />
+      <WhySection />
+      <QuerySection />
+      <StaffSection />
+      <PartnerSection />
     </div>
   );
 }
