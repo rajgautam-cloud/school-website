@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Poppins", sans-serif;
 }
 .th-font-pink {
   color: #ff236c;
@@ -31,6 +30,28 @@ code {
 }
 .th-font-yellow {
   color: #f0aa00;
+}
+
+.th-pink {
+  background-color: #ff236c;
+}
+.th-grey {
+  background-color: #bababa;
+}
+.th-white {
+  background-color: #fff;
+}
+.th-green {
+  background-color: #a5c347;
+}
+.th-mint {
+  background-color: #00d2dc;
+}
+.th-blue {
+  background-color: #5d58ef;
+}
+.th-yellow {
+  background-color: #f0aa00;
 }
 
 .th-font-red {
@@ -85,4 +106,110 @@ code {
   padding: 10px 40px;
   color: black;
   border-radius: 30px;
+}
+.testimonial-container {
+  background-color: #f1aa00;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.rhombus-icon {
+  border-radius: 20px;
+  transform: rotate(45deg);
+
+  display: inline-block;
+  line-height: 1;
+  transition: all 0.3s;
+  color: #818a91;
+  font-size: 50px;
+  text-align: center;
+  aspect-ratio: 1;
+}
+.rhombus-image {
+  transform: rotate(-45deg);
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  padding: 50px;
+}
+.widget-container-mint {
+  padding: 55px 30px 55px 30px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    #def5ff 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #def5ff;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 5%) inset;
+  height: -30vw;
+}
+.widget-container-orange {
+  padding: 55px 30px 55px 30px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    #fff4dc 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #fff4dc;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 5%) inset;
+  height: -30vw;
+}
+
+.widget-container-purple {
+  padding: 55px 30px 55px 30px;
+  background-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    #eee1ff 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #eee1ff;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 5%) inset;
+  height: -30vw;
+}
+.carousel-image {
+  height: 90vh;
+  width: auto;
+}
+.footer-background {
+  background-color: #5d58ef;
+  background-image: url(https://pallikoodam.wpengine.com/wp-content/uploads/2019/09/footer-pattern.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .widget-container-mint {
+    height: fit-content;
+  }
+  .widget-container-orange {
+    height: fit-content;
+  }
+  .widget-container-purple {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .align-center {
+    text-align: center;
+  }
+
+  .point-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }

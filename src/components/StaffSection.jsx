@@ -12,49 +12,70 @@ const StaffSection = () => {
       >
         Our Qualified Staffs
       </div>
-      <div className="row th-font-white py-3">
-        <div className="col-2"></div>
-        <div className="col-2">
+      <div
+        className="row th-font-white py-3 text-center"
+        style={{
+          paddingLeft: "15%",
+          paddingRight: "15%",
+          justifyContent: "center",
+        }}
+      >
+        <div className="col-lg-3 col-md-6 col-sm-10 col-10">
           <div>
-            <img src={t1} className="col-12" style={{ borderRadius: "10px" }} />
+            <img
+              src={t1}
+              className="col-md-12 col-sm-10 col-10"
+              style={{ borderRadius: "10px" }}
+            />
           </div>
-          <div className="text-center">
+          <div className="text-center text-nowrap">
             <div className="th-16 th-fw-500 py-3">Instructor/Teacher</div>
             <div className="th-25 th-fw-600">John Parker (PHD)</div>
-            <button className="secondary-button my-3"> 9876543210</button>
+            <button className="secondary-button my-3">📞 9876543210</button>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-lg-3 col-md-6 col-sm-10 col-10">
           <div>
-            <img src={t2} className="col-12" style={{ borderRadius: "10px" }} />
+            <img
+              src={t2}
+              className="col-md-12 col-sm-10 col-10"
+              style={{ borderRadius: "10px" }}
+            />
           </div>
-          <div className="text-center">
+          <div className="text-center text-nowrap">
             <div className="th-16 th-fw-500 py-3">Instructor/Teacher</div>
             <div className="th-25 th-fw-600">Lida Jones</div>
-            <button className="secondary-button my-3"> 654312210</button>
+            <button className="secondary-button my-3">📞 7654312210</button>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-lg-3 col-md-6 col-sm-10 col-10">
           <div>
-            <img src={t3} className="col-12" style={{ borderRadius: "10px" }} />
+            <img
+              src={t3}
+              className="col-md-12 col-sm-10 col-10"
+              style={{ borderRadius: "10px" }}
+            />
           </div>
-          <div className="text-center">
+          <div className="text-center text-nowrap">
             <div className="th-16 th-fw-500 py-3">Instructor/Teacher</div>
             <div className="th-25 th-fw-600">Michael Jordan</div>
-            <button className="secondary-button my-3"> 8765435210</button>
+            <button className="secondary-button my-3">📞 6876543521</button>
           </div>
         </div>
-        <div className="col-2">
+        <div className="col-lg-3 col-md-6 col-sm-10 col-10">
           <div>
-            <img src={t4} className="col-12" style={{ borderRadius: "10px" }} />
+            <img
+              src={t4}
+              className="col-md-12 col-sm-10 col-10"
+              style={{ borderRadius: "10px" }}
+            />
           </div>
-          <div className="text-center">
+          <div className="text-center text-nowrap">
             <div className="th-16 th-fw-500 py-3">Instructor/Teacher</div>
             <div className="th-25 th-fw-600">Lilly Thomas</div>
-            <button className="secondary-button my-3"> 98712310</button>
+            <button className="secondary-button my-3">📞 9871278310</button>
           </div>
         </div>
-        <div className="col-2"></div>
       </div>
     </div>
   );
